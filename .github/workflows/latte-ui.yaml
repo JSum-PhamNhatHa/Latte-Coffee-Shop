@@ -1,11 +1,11 @@
-name: Latte API
+name: Latte UI
 
 on:
   push:
     branches: ["master"]
     paths:
       - "./**"
-      - ".github/workflows/latte-fe.yaml"
+      - ".github/workflows/latte-ui.yaml"
 
 jobs:
   Build:
@@ -27,4 +27,4 @@ jobs:
         with:
           context: ./
           push: true
-          tags: ghcr.io/JSum-PhamNhatHa/latte-fe:latest
+          tags: ghcr.io/JSum-PhamNhatHa/latte-ui:latest
