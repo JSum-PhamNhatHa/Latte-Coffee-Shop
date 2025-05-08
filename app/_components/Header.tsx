@@ -24,7 +24,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image';
-import LogoImg from '../../images/Logo-removebg-preview.png';
+import LogoImg from '../../public/images/Logo-removebg-preview.png';
 
 const products = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
